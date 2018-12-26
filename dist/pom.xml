@@ -23,7 +23,7 @@
   <modelVersion>4.0.0</modelVersion>
   <description>Assembly project for building the XML-RPC distribution.</description>
   <parent>
-    <groupId>org.apache.xmlrpc</groupId>
+    <groupId>ru.masterdata.xmlrpc</groupId>
     <artifactId>xmlrpc</artifactId>
     <version>3.1.3</version>
     <relativePath>../pom.xml</relativePath>
@@ -43,7 +43,7 @@
               <addExtensions>false</addExtensions>
             </manifest>
             <manifestEntries>
-              <Extension-Name>org.apache.xmlrpc.test</Extension-Name>
+              <Extension-Name>ru.masterdata.xmlrpc.test</Extension-Name>
               <Specification-Vendor>UserLand Software, Inc.</Specification-Vendor>
               <Specification-Version>2003-06-30</Specification-Version>
               <Specification-Title>XML-RPC</Specification-Title>
@@ -62,12 +62,12 @@
       <artifactId>javax.servlet-api</artifactId>
     </dependency>
     <dependency>
-    	<groupId>org.apache.xmlrpc</groupId>
+    	<groupId>ru.masterdata.xmlrpc</groupId>
     	<artifactId>xmlrpc-client</artifactId>
     	<version>3.1.3</version>
     </dependency>
     <dependency>
-    	<groupId>org.apache.xmlrpc</groupId>
+    	<groupId>ru.masterdata.xmlrpc</groupId>
     	<artifactId>xmlrpc-server</artifactId>
     	<version>3.1.3</version>
     </dependency>
